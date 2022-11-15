@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+@media only screen and (max-width: 600px) {
+    p {
+        size: 6px;
+    }
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sono', sans-serif;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-size: 18px;
+}
+
+section {
+    height: 70vh;
+}
+    .black {
+        background-color: rgb(12, 12, 12);
+    }
+
+    .white p {
+        background-color: white;
+        color:  black;
+    }
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+img {
+    padding-top: 40px;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
